@@ -38,6 +38,7 @@ body {
     line-height: 24.39px;
     letter-spacing: 0%;
     -moz-appearance: textfield;
+    field-sizing: content;
 }
 
 #hero-input-el:focus{
