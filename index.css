@@ -32,7 +32,7 @@ body {
     background: transparent;
     text-align: center;
     color: white;
-    font-family: Inter;
+    font-family: Inter , sans-serif;
     font-weight: 800;
     font-size: 58px;
     line-height: 24.39px;
@@ -51,7 +51,7 @@ body {
     border-radius: 5px;
     background: white;
     color: #3D3D3D;
-    font-family: Inter;
+    font-family: Inter , sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -72,13 +72,12 @@ body {
 .units{
     background: #273549;
     width: 85%;
-    height: 110px;
     margin-bottom: 30px;
 }
 
 
 .units-title{
-    font-family:Inter;
+    font-family: Inter , sans-serif;
     color: #CCC1FF;
     font-size: 20px;
     font-weight: 600;
@@ -87,5 +86,12 @@ body {
     padding-top: 30px;
 }
 
-
-
+.units-body{
+    color : white;
+    font-family: Inter , sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    padding-bottom: 20px;
+}
