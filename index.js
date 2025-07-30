@@ -4,6 +4,11 @@ const lengthEl = document.getElementById("length-conv-el")
 const volumeEl = document.getElementById("volume-conv-el")
 const massEl = document.getElementById("mass-conv-el")
 
+inputEl.addEventListener("input", function () {
+    this.style.width = "120px";
+    this.style.width = this.scrollWidth + 'px';
+})
+
 inputBtn.addEventListener("click", function () {
     let numberToConvert = Number(inputEl.value)
     convert(numberToConvert)
@@ -22,7 +27,7 @@ function convert(value) {
 
     massEl.textContent = `
     ${value} kilos = ${(value * 2.20462262).toFixed(3)} pounds | 
-    ${value} pounds = ${(value/2.20462262).toFixed(3)} kilos
+    ${value} pounds = ${(value / 2.20462262).toFixed(3)} kilos
     `
 }
 

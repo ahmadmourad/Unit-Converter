@@ -1,34 +1,39 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="index.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <div id="hero-section">
-            <h1 class="hero-title"> Metric/Imperial Unit Conversion</h1>
-            <input type="number" min="0" id="hero-input-el" placeholder=0 >
-            <button id="hero-button-el">Convert</button>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="hero-section">
+        <h1 class="hero-title"> Metric/Imperial Unit Conversion</h1>
+        <input type="number" min="0" id="hero-input-el" placeholder=0>
+        <button id="hero-button-el">Convert</button>
+    </div>
+
+    <div id="conversions-section">
+        <div class="units">
+            <h1 class="units-title">Length (Meter/Feet)</h1>
+            <p id="length-conv-el" class="units-body"> 0 meters = 0 feet | 0 feet = 0 meters</p>
         </div>
 
-        <div id="conversions-section">
-            <div class="units">
-                <h1 class="units-title">Length (Meter/Feet)</h1>
-                <p id="length-conv-el" class="units-body"> 0 meters = 0 feet | 0 feet = 0 meters</p>
-            </div>
-
-            <div class="units">
-                <h1 class="units-title">Volume (Liters/Gallons)</h1>
-                <p id="volume-conv-el" class="units-body">0 liters = 0 gallons | 0 gallons = 0 liters</p>
-            </div>
-
-            <div class="units">
-                <h1 class="units-title">Mass (Kilograms/Pounds)</h1>
-                <p id="mass-conv-el" class="units-body">0 kilos = 0 pounds | 0 pounds = 0 kilos</p>
-            </div>
-
+        <div class="units">
+            <h1 class="units-title">Volume (Liters/Gallons)</h1>
+            <p id="volume-conv-el" class="units-body">0 liters = 0 gallons | 0 gallons = 0 liters</p>
         </div>
-        <script src="index.js"></script>
-    </body>
+
+        <div class="units">
+            <h1 class="units-title">Mass (Kilograms/Pounds)</h1>
+            <p id="mass-conv-el" class="units-body">0 kilos = 0 pounds | 0 pounds = 0 kilos</p>
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
 </html>
