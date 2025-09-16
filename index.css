@@ -67,7 +67,7 @@ input::-webkit-inner-spin-button {
 
 #conversions-section {
     background: #1F2937;
-    height: 650px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
