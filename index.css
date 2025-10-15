@@ -1,13 +1,12 @@
 body {
     margin: 0;
     text-align: center;
-    max-height: 750px;
+    overflow: hidden;
 }
 
 
 #hero-section {
     background: #6943FF;
-    /* height: 350px; */
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -42,8 +41,8 @@ body {
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 
